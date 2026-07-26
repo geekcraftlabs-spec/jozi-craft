@@ -420,8 +420,8 @@ export default function HomePage() {
                       <div>
                         <p className="font-semibold text-[#4a3520]">Call Ahead</p>
                         <p className="text-sm text-[#6b4c3b]">
-                          <a href="tel:+27684858415" className="hover:text-[#8b6914] transition">
-                            +27 68 485 8415
+                          <a href="tel:+27682852438" className="hover:text-[#8b6914] transition">
+                            +27 68 285 2438
                           </a>
                           <span className="text-xs text-[#6b4c3b]/60 ml-2">
                             (Recommended for big projects)

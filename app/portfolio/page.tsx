@@ -58,7 +58,6 @@ export default function PortfolioPage() {
           Our Portfolio
         </h1>
 
-        {/* Subtle notice about WhatsApp enquiries */}
         <div className="text-center max-w-2xl mx-auto mb-6">
           <p className="text-[#6b4c3b] text-sm">
             Browse our collection. <span className="font-semibold text-[#8b6914]">Click any image</span> to view details and
@@ -147,7 +146,6 @@ export default function PortfolioPage() {
           );
         })}
 
-        {/* Back to Top Button */}
         <BackToTop />
       </div>
 
@@ -182,7 +180,6 @@ export default function PortfolioPage() {
               )}
             </div>
 
-            {/* Navigation arrows */}
             {(selectedItem.images.length + (selectedItem.videos?.length || 0)) > 1 && (
               <>
                 <button
@@ -200,7 +197,6 @@ export default function PortfolioPage() {
               </>
             )}
 
-            {/* Thumbnails */}
             <div className="flex gap-2 mt-4 overflow-x-auto pb-2">
               {selectedItem.images.map((img, idx) => (
                 <button
@@ -226,12 +222,12 @@ export default function PortfolioPage() {
               ))}
             </div>
 
-            {/* WhatsApp Enquiry Button - Modal only */}
+            {/* WhatsApp Enquiry Button - Modal only - Updated Number */}
             {(() => {
               const productUrl = `${baseUrl}/p/${selectedItem.productCode}`;
               return (
                 <a
-                  href={`https://wa.me/27684858415?text=${encodeURIComponent(
+                  href={`https://wa.me/27601089337?text=${encodeURIComponent(
                     `View product: ${productUrl}\n\nHi Furniture Haven! 👋\n\nI'm interested in the **${selectedCategoryName}** you have.\n\nProduct code: ${selectedItem.productCode}\n\nCould you please give me:\n• A price estimate\n• Delivery options to my area\n\nThank you! 🙏`
                   )}`}
                   target="_blank"
@@ -244,13 +240,12 @@ export default function PortfolioPage() {
               );
             })()}
 
-            {/* Close Button */}
-<button
-  onClick={closeModal}
-  className="mt-3 w-full bg-gray-200 text-[#4a3520] py-3 px-4 rounded-xl font-semibold hover:bg-gray-300 transition shadow-md"
->
-  Close
-</button>
+            <button
+              onClick={closeModal}
+              className="mt-3 w-full bg-gray-200 text-[#4a3520] py-3 px-4 rounded-xl font-semibold hover:bg-gray-300 transition shadow-md"
+            >
+              Close
+            </button>
           </div>
         </div>
       )}

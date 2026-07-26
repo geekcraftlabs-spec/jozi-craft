@@ -2,12 +2,12 @@ import { FaWhatsapp, FaInstagram, FaTiktok, FaTwitter, FaEnvelope, FaPhone, FaMa
 
 export default function ContactPage() {
   const socials = [
-    { name: "WhatsApp", icon: FaWhatsapp, url: "https://wa.me/27684858415", color: "#25D366" },
+    { name: "WhatsApp", icon: FaWhatsapp, url: "https://wa.me/27601089337", color: "#25D366" },
     { name: "Instagram", icon: FaInstagram, url: "https://www.instagram.com/anotheronedown__", color: "#E4405F" },
     { name: "TikTok", icon: FaTiktok, url: "https://www.tiktok.com/@geek.craft.labs", color: "#000000" },
     { name: "Twitter", icon: FaTwitter, url: "https://x.com/another_1_downn", color: "#1DA1F2" },
-    { name: "Email", icon: FaEnvelope, url: "mailto:info@geekcraftlabs.com", color: "#D44638" },
-    { name: "Phone", icon: FaPhone, url: "tel:+27684858415", color: "#34B7F1" },
+    { name: "Email", icon: FaEnvelope, url: "mailto:info@furniturehaven.co.za", color: "#D44638" },
+    { name: "Phone", icon: FaPhone, url: "tel:+27682852438", color: "#34B7F1" },
   ];
 
   return (
@@ -36,8 +36,16 @@ export default function ContactPage() {
                 <div className="flex items-start gap-4">
                   <FaPhone className="text-[#8b6914] text-xl mt-1 shrink-0" />
                   <div>
-                    <p className="font-semibold text-[#4a3520]">Phone</p>
-                    <p className="text-[#6b4c3b] text-sm"><a href="tel:+27684858415" className="hover:text-[#8b6914] transition">+27 68 485 8415</a></p>
+                    <p className="font-semibold text-[#4a3520]">Phone (Call)</p>
+                    <p className="text-[#6b4c3b] text-sm"><a href="tel:+27682852438" className="hover:text-[#8b6914] transition">+27 68 285 2438</a></p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
+                  <FaWhatsapp className="text-[#25D366] text-xl mt-1 shrink-0" />
+                  <div>
+                    <p className="font-semibold text-[#4a3520]">WhatsApp</p>
+                    <p className="text-[#6b4c3b] text-sm"><a href="https://wa.me/27601089337" target="_blank" rel="noopener noreferrer" className="hover:text-[#25D366] transition">+27 60 108 9337</a></p>
+                    <p className="text-xs text-[#6b4c3b]/60 mt-0.5">Secondary: <a href="https://wa.me/27634954249" target="_blank" rel="noopener noreferrer" className="hover:text-[#25D366] transition">+27 63 495 4249</a></p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">

@@ -1,14 +1,14 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 
 export default function Footer() {
-  // Social links – we keep the owner's numbers for now
   const socials = [
-    { name: "WhatsApp", img: "whatsapp.png", url: "https://wa.me/27684858415" },
+    { name: "WhatsApp", img: "whatsapp.png", url: "https://wa.me/27601089337" },
     { name: "Instagram", img: "instagram.png", url: "https://www.instagram.com/anotheronedown__" },
     { name: "TikTok", img: "tiktok.png", url: "https://www.tiktok.com/@geek.craft.labs" },
     { name: "Twitter", img: "twitter.png", url: "https://x.com/another_1_downn" },
-    { name: "Email", img: "email.png", url: "mailto:info@geekcraftlabs.com" },
-    { name: "Phone", img: "phone.png", url: "tel:+27684858415" },
+    { name: "Email", img: "email.png", url: "mailto:info@furniturehaven.co.za" },
+    { name: "Phone", img: "phone.png", url: "tel:+27682852438" },
   ];
 
   return (
@@ -27,31 +27,11 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold text-[#d4b896] mb-3">Quick Links</h4>
             <ul className="space-y-2 text-sm text-white/70">
-              <li>
-                <Link href="/portfolio" className="hover:text-[#d4b896] transition">
-                  Portfolio
-                </Link>
-              </li>
-              <li>
-                <Link href="/about" className="hover:text-[#d4b896] transition">
-                  About Us
-                </Link>
-              </li>
-              <li>
-                <Link href="/testimonials" className="hover:text-[#d4b896] transition">
-                  Testimonials
-                </Link>
-              </li>
-              <li>
-                <Link href="/delivery" className="hover:text-[#d4b896] transition">
-                  Delivery Schedule
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact" className="hover:text-[#d4b896] transition">
-                  Contact
-                </Link>
-              </li>
+              <li><Link href="/portfolio" className="hover:text-[#d4b896] transition">Portfolio</Link></li>
+              <li><Link href="/about" className="hover:text-[#d4b896] transition">About Us</Link></li>
+              <li><Link href="/testimonials" className="hover:text-[#d4b896] transition">Testimonials</Link></li>
+              <li><Link href="/delivery" className="hover:text-[#d4b896] transition">Delivery Schedule</Link></li>
+              <li><Link href="/contact" className="hover:text-[#d4b896] transition">Contact</Link></li>
             </ul>
           </div>
           <div>
@@ -66,7 +46,6 @@ export default function Footer() {
                   className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center hover:bg-[#d4b896] hover:scale-110 transition"
                   aria-label={social.name}
                 >
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={`/images/${social.img}`}
                     alt={social.name}
@@ -78,8 +57,8 @@ export default function Footer() {
               ))}
             </div>
             <p className="text-xs text-white/50 mt-3">
-              <a href="tel:+27684858415" className="hover:text-[#d4b896] transition">
-                +27 68 485 8415
+              <a href="tel:+27682852438" className="hover:text-[#d4b896] transition">
+                +27 68 285 2438
               </a>
             </p>
           </div>

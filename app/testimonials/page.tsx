@@ -98,7 +98,7 @@ export default function TestimonialsPage() {
 
             <div className="text-center mt-8">
               <a
-                href={`https://wa.me/27684858415?text=${encodeURIComponent(
+                href={`https://wa.me/27601089337?text=${encodeURIComponent(
                   "Hi Furniture Haven! 👋\n\nI saw your delivery reviews and I'm interested in ordering furniture.\n\nCan you tell me more about your products and delivery to my area?\n\nThank you! 🙏"
                 )}`}
                 target="_blank"
@@ -207,13 +207,12 @@ export default function TestimonialsPage() {
                 </span>
               </div>
 
-              {/* WhatsApp Enquiry – FIXED URL */}
+              {/* WhatsApp Enquiry – Updated Number */}
               {(() => {
-                // ✅ CORRECT: Use /review/ not /api/review/
                 const reviewUrl = `${baseUrl}/review/${selectedReview.code}`;
                 return (
                   <a
-                    href={`https://wa.me/27684858415?text=${encodeURIComponent(
+                    href={`https://wa.me/27601089337?text=${encodeURIComponent(
                       `View delivery: ${reviewUrl}\n\nHi Furniture Haven! 👋\n\nI saw your delivery review for the **${selectedReview.title}** (${selectedReview.location} - ${selectedReview.date}).\n\nI'm interested in ordering something similar. Can you tell me more?\n\nProduct: ${selectedReview.category}\nLocation: ${selectedReview.location}\n\nThank you! 🙏`
                     )}`}
                     target="_blank"
@@ -226,13 +225,12 @@ export default function TestimonialsPage() {
                 );
               })()}
 
-              {/* Close Button */}
-<button
-  onClick={closeModal}
-  className="mt-3 w-full bg-gray-200 text-[#4a3520] py-3 px-4 rounded-xl font-semibold hover:bg-gray-300 transition shadow-md"
->
-  Close
-</button>
+              <button
+                onClick={closeModal}
+                className="mt-3 w-full bg-gray-200 text-[#4a3520] py-3 px-4 rounded-xl font-semibold hover:bg-gray-300 transition shadow-md"
+              >
+                Close
+              </button>
             </div>
           </div>
         </div>

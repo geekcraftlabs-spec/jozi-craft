@@ -145,7 +145,7 @@ export default function DeliveryPage() {
           ))}
         </motion.div>
 
-        {/* CTA Section */}
+        {/* CTA Section – Updated WhatsApp */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -161,7 +161,7 @@ export default function DeliveryPage() {
               to your area.
             </p>
             <a
-              href="https://wa.me/27684858415?text=Hi%20Furniture%20Haven!%20I'm%20interested%20in%20ordering%20furniture.%20Please%20tell%20me%20about%20delivery%20to%20my%20area."
+              href="https://wa.me/27601089337?text=Hi%20Furniture%20Haven!%20I'm%20interested%20in%20ordering%20furniture.%20Please%20tell%20me%20about%20delivery%20to%20my%20area."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-white text-[#8b6914] px-8 py-3 rounded-full font-semibold hover:bg-[#faf6f0] transition shadow-lg hover:shadow-xl"
