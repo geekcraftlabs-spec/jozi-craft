@@ -1,11 +1,10 @@
-import { FaWhatsapp, FaInstagram, FaTiktok, FaTwitter, FaEnvelope, FaPhone, FaMapMarkerAlt, FaClock } from "react-icons/fa";
+import { FaWhatsapp, FaInstagram, FaTiktok, FaEnvelope, FaPhone, FaMapMarkerAlt, FaClock } from "react-icons/fa";
 
 export default function ContactPage() {
   const socials = [
     { name: "WhatsApp", icon: FaWhatsapp, url: "https://wa.me/27601089337", color: "#25D366" },
-    { name: "Instagram", icon: FaInstagram, url: "https://www.instagram.com/anotheronedown__", color: "#E4405F" },
-    { name: "TikTok", icon: FaTiktok, url: "https://www.tiktok.com/@geek.craft.labs", color: "#000000" },
-    { name: "Twitter", icon: FaTwitter, url: "https://x.com/another_1_downn", color: "#1DA1F2" },
+    { name: "Instagram", icon: FaInstagram, url: "https://www.instagram.com/furniture_havn/", color: "#E4405F" },
+    { name: "TikTok", icon: FaTiktok, url: "https://www.tiktok.com/@furniturehave01?is_from_webapp=1&sender_device=pc", color: "#000000" },
     { name: "Email", icon: FaEnvelope, url: "mailto:info@furniturehaven.co.za", color: "#D44638" },
     { name: "Phone", icon: FaPhone, url: "tel:+27682852438", color: "#34B7F1" },
   ];

@@ -4,9 +4,8 @@ import Link from "next/link";
 export default function Footer() {
   const socials = [
     { name: "WhatsApp", img: "whatsapp.png", url: "https://wa.me/27601089337" },
-    { name: "Instagram", img: "instagram.png", url: "https://www.instagram.com/anotheronedown__" },
-    { name: "TikTok", img: "tiktok.png", url: "https://www.tiktok.com/@geek.craft.labs" },
-    { name: "Twitter", img: "twitter.png", url: "https://x.com/another_1_downn" },
+    { name: "Instagram", img: "instagram.png", url: "https://www.instagram.com/furniture_havn/" },
+    { name: "TikTok", img: "tiktok.png", url: "https://www.tiktok.com/@furniturehave01?is_from_webapp=1&sender_device=pc" },
     { name: "Email", img: "email.png", url: "mailto:info@furniturehaven.co.za" },
     { name: "Phone", img: "phone.png", url: "tel:+27682852438" },
   ];
