@@ -16,44 +16,42 @@ const dmSerif = DM_Serif_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Furniture Haven – Handcrafted Furniture in South Africa",
+  title: "Jozi Craft – Handcrafted Furniture in South Africa",
   description:
     "Premium custom furniture handcrafted in Johannesburg. Nationwide delivery, bespoke designs, and a promise you can trust.",
   icons: {
     icon: [
       {
-        url: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%238b6914' rx='20'/><text x='50' y='72' font-size='60' text-anchor='middle' fill='white' font-weight='bold'>FH</text></svg>",
+        url: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%238b6914' rx='20'/><text x='50' y='72' font-size='60' text-anchor='middle' fill='white' font-weight='bold'>JC</text></svg>",
         type: "image/svg+xml",
       },
     ],
   },
-  // Open Graph for social preview (WhatsApp, Facebook, etc.)
   openGraph: {
-    title: "Furniture Haven – Handcrafted Furniture in South Africa",
+    title: "Jozi Craft – Handcrafted Furniture in South Africa",
     description:
       "Premium custom furniture handcrafted in Johannesburg. Nationwide delivery, bespoke designs, and a promise you can trust.",
-    url: "https://furniturehaven.co.za",
-    siteName: "Furniture Haven",
+    url: "https://jozicraft.co.za",
+    siteName: "Jozi Craft",
     locale: "en_ZA",
     type: "website",
     images: [
       {
-        url: "https://furniturehaven.co.za/images/og-image.png",
+        url: "https://jozicraft.co.za/images/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Furniture Haven – Premium Custom Furniture",
+        alt: "Jozi Craft – Premium Custom Furniture",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Furniture Haven – Handcrafted Furniture in South Africa",
+    title: "Jozi Craft – Handcrafted Furniture in South Africa",
     description:
       "Premium custom furniture handcrafted in Johannesburg. Nationwide delivery, bespoke designs, and a promise you can trust.",
-    images: ["https://furniturehaven.co.za/images/og-image.png"],
+    images: ["https://jozicraft.co.za/images/og-image.png"],
   },
-
-  // ✅ TRUSTPILOT DOMAIN VERIFICATION – add this block
+  // Trustpilot verification – you can update with the new ID later if needed
   other: {
     "trustpilot-one-time-domain-verification-id":
       "ca225c2f-b270-4c4a-a641-dcc0ba7790ec",
