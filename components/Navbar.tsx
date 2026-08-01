@@ -7,10 +7,15 @@ import { createPortal } from "react-dom";
 export default function Navbar() {
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
-  // ✅ Mounted check – no useEffect needed
-  const [mounted] = useState(() => typeof window !== "undefined");
+  const [mounted, setMounted] = useState(false);
   const buttonRef = useRef<HTMLButtonElement>(null);
   const menuRef = useRef<HTMLDivElement>(null);
+
+  // Set mounted to true after mount (client-side only)
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setMounted(true);
+  }, []);
 
   // Close when clicking outside
   useEffect(() => {
@@ -101,9 +106,9 @@ export default function Navbar() {
           <div className="h-16 md:h-20 flex items-center justify-between">
             <Link href="/" className="flex items-center gap-2 md:absolute md:left-1/2 md:-translate-x-1/2">
               <span className="bg-[#8b6914] text-white text-xs rounded-full w-8 h-8 flex items-center justify-center font-serif font-bold">
-                FH
+                JC
               </span>
-              <span className="text-xl font-serif font-bold text-[#4a3520]">Furniture Haven</span>
+              <span className="text-xl font-serif font-bold text-[#4a3520]">Jozi Craft</span>
             </Link>
 
             <div className="hidden md:flex items-center gap-6 text-sm font-medium ml-auto">

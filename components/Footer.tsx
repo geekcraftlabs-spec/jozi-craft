@@ -4,9 +4,10 @@ import Link from "next/link";
 export default function Footer() {
   const socials = [
     { name: "WhatsApp", img: "whatsapp.png", url: "https://wa.me/27601089337" },
-    { name: "Instagram", img: "instagram.png", url: "https://www.instagram.com/furniture_havn/" },
-    { name: "TikTok", img: "tiktok.png", url: "https://www.tiktok.com/@furniturehave01?is_from_webapp=1&sender_device=pc" },
-    { name: "Email", img: "email.png", url: "mailto:info@furniturehaven.co.za" },
+    { name: "Instagram", img: "instagram.png", url: "https://www.instagram.com/your_instagram_handle" }, // update
+    { name: "TikTok", img: "tiktok.png", url: "https://www.tiktok.com/@your_tiktok_handle" }, // update
+    { name: "Twitter", img: "twitter.png", url: "https://x.com/your_twitter_handle" }, // update
+    { name: "Email", img: "email.png", url: "mailto:info@jozicraft.co.za" },
     { name: "Phone", img: "phone.png", url: "tel:+27682852438" },
   ];
 
@@ -16,7 +17,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left">
           <div className="md:col-span-2">
             <h3 className="font-serif font-bold text-2xl mb-3 text-[#d4b896]">
-              Furniture Haven
+              Jozi Craft
             </h3>
             <p className="text-white/70 text-sm max-w-md mx-auto md:mx-0">
               Handcrafted furniture that feels like home. Custom designs,
@@ -45,13 +46,7 @@ export default function Footer() {
                   className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center hover:bg-[#d4b896] hover:scale-110 transition"
                   aria-label={social.name}
                 >
-                  <img
-                    src={`/images/${social.img}`}
-                    alt={social.name}
-                    width={24}
-                    height={24}
-                    className="w-6 h-6 object-contain"
-                  />
+                  <img src={`/images/${social.img}`} alt={social.name} width={24} height={24} className="w-6 h-6 object-contain" />
                 </a>
               ))}
             </div>
@@ -63,7 +58,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-white/10 mt-8 pt-6 text-center text-xs text-white/40">
-          <p>&copy; {new Date().getFullYear()} Furniture Haven. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Jozi Craft. All rights reserved.</p>
           <p className="mt-1">Crafted with care in Johannesburg.</p>
         </div>
       </div>
