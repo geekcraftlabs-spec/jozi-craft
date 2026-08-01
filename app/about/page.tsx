@@ -3,7 +3,6 @@ import Link from "next/link";
 export default function AboutPage() {
   return (
     <div className="pt-20">
-      {/* Hero Section */}
       <section className="relative py-16 md:py-24 px-4 md:px-6 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-[#4a3520] via-[#8b6914] to-[#c87a3a]" />
         <div className="absolute top-0 right-0 w-96 h-96 bg-[#d4b896]/10 rounded-full blur-3xl" />
@@ -11,7 +10,7 @@ export default function AboutPage() {
 
         <div className="relative z-10 max-w-4xl mx-auto text-center text-white">
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-            About <span className="text-[#d4b896]">Furniture Haven</span>
+            About <span className="text-[#d4b896]">Jozi Craft</span>
           </h1>
           <p className="text-white/80 text-lg max-w-2xl mx-auto">
             Handcrafted furniture that transforms houses into homes. Quality craftsmanship,
@@ -20,9 +19,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Main Content */}
       <div className="max-w-5xl mx-auto px-4 md:px-6 py-12">
-        {/* The Mission and Vision */}
         <div className="mb-12">
           <div className="flex items-center gap-3 mb-4">
             <span className="text-3xl">🎯</span>
@@ -32,7 +29,7 @@ export default function AboutPage() {
           </div>
           <div className="bg-white rounded-2xl p-6 md:p-8 shadow-md border border-[#d4b896]/20">
             <p className="text-[#6b4c3b] leading-relaxed">
-              At Furniture Haven, our mission is to transform houses into homes with
+              At Jozi Craft, our mission is to transform houses into homes with
               premium furniture that combines functionality, elegance, and
               durability. We aim to make every piece a reflection of your unique
               style and a testament to superior craftsmanship.
@@ -45,7 +42,6 @@ export default function AboutPage() {
           </div>
         </div>
 
-        {/* Our Story */}
         <div className="mb-12">
           <div className="flex items-center gap-3 mb-4">
             <span className="text-3xl">📖</span>
@@ -55,7 +51,7 @@ export default function AboutPage() {
           </div>
           <div className="bg-white rounded-2xl p-6 md:p-8 shadow-md border border-[#d4b896]/20">
             <p className="text-[#6b4c3b] leading-relaxed">
-              Furniture Haven began with a simple belief: everyone deserves a space
+              Jozi Craft began with a simple belief: everyone deserves a space
               that feels truly their own. What started as a small workshop in
               Johannesburg has grown into a trusted name in the furniture industry,
               where innovation meets tradition.
@@ -68,7 +64,6 @@ export default function AboutPage() {
           </div>
         </div>
 
-        {/* Core Values - Card Grid */}
         <div className="mb-12">
           <div className="flex items-center gap-3 mb-4">
             <span className="text-3xl">💎</span>
@@ -94,7 +89,6 @@ export default function AboutPage() {
           </div>
         </div>
 
-        {/* What Sets Us Apart */}
         <div className="mb-12">
           <div className="flex items-center gap-3 mb-4">
             <span className="text-3xl">⭐</span>
@@ -104,7 +98,7 @@ export default function AboutPage() {
           </div>
           <div className="bg-white rounded-2xl p-6 md:p-8 shadow-md border border-[#d4b896]/20">
             <p className="text-[#6b4c3b] leading-relaxed">
-              Furniture Haven isn&apos;t just another furniture brand; it&apos;s a partner in
+              Jozi Craft isn&apos;t just another furniture brand; it&apos;s a partner in
               making your dream space a reality. We specialize in custom designs,
               tailoring every piece to your needs and style preferences.
             </p>
@@ -129,13 +123,12 @@ export default function AboutPage() {
           </div>
         </div>
 
-        {/* CTA Section */}
         <div className="bg-[#8b6914] rounded-2xl p-8 md:p-10 text-center text-white">
           <h2 className="font-serif text-2xl md:text-3xl font-bold text-white mb-3">
             Let&apos;s Bring Your Vision to Life
           </h2>
           <p className="text-white/80 max-w-2xl mx-auto mb-6">
-            Ready to elevate your living space? Let Furniture Haven bring your vision
+            Ready to elevate your living space? Let Jozi Craft bring your vision
             to life. Explore our collection, schedule a consultation, or share
             your ideas with us.
           </p>

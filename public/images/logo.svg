@@ -10,11 +10,6 @@
       <stop offset="40%" stop-color="#c99a3b"/>
       <stop offset="100%" stop-color="#a67c2e"/>
     </linearGradient>
-    <linearGradient id="goldGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#d4a373"/>
-      <stop offset="50%" stop-color="#8b6914"/>
-      <stop offset="100%" stop-color="#c87a3a"/>
-    </linearGradient>
     <radialGradient id="glow" cx="50%" cy="50%" r="60%">
       <stop offset="0%" stop-color="#e8b86d" stop-opacity="0.15"/>
       <stop offset="100%" stop-color="#e8b86d" stop-opacity="0"/>
@@ -36,7 +31,6 @@
   <g transform="translate(600, 280)" filter="url(#shadow)">
     <!-- Couch backrest -->
     <rect x="-120" y="-55" width="240" height="80" rx="12" fill="url(#goldGrad)"/>
-    <!-- Cushion details -->
     <line x1="-90" y1="-30" x2="90" y2="-30" stroke="#8b6914" stroke-width="2.5" opacity="0.3"/>
     <line x1="-90" y1="-15" x2="90" y2="-15" stroke="#8b6914" stroke-width="2.5" opacity="0.3"/>
     <!-- Armrests -->
@@ -55,19 +49,18 @@
     <circle cx="65" cy="-20" r="5" fill="#a67c2e" opacity="0.4"/>
   </g>
 
-  <!-- "FH" Monogram -->
+  <!-- "JC" Monogram -->
   <text x="600" y="155" font-family="'Georgia','Times New Roman',serif" font-size="90" font-weight="bold" fill="#f0d5a8" text-anchor="middle" letter-spacing="10" filter="url(#shadow)">
-    FH
+    JC
   </text>
 
   <!-- Tagline -->
   <text x="600" y="470" font-family="'Arial','Helvetica',sans-serif" font-size="22" fill="#d4a373" text-anchor="middle" letter-spacing="6" font-weight="300">
-    FURNITURE HAVEN
+    JOZI CRAFT
   </text>
   <text x="600" y="505" font-family="'Arial','Helvetica',sans-serif" font-size="13" fill="#a08a78" text-anchor="middle" letter-spacing="3" font-weight="300">
     HANDCRAFTED WITH CARE · NATIONWIDE DELIVERY
   </text>
 
-  <!-- Small decorative line -->
   <line x1="450" y1="520" x2="750" y2="520" stroke="#8b6914" stroke-width="1.5" opacity="0.3"/>
 </svg>

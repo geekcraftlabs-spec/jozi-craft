@@ -4,8 +4,8 @@ export default function ContactPage() {
   const socials = [
     { name: "WhatsApp", icon: FaWhatsapp, url: "https://wa.me/27601089337", color: "#25D366" },
     { name: "Instagram", icon: FaInstagram, url: "https://www.instagram.com/furniture_havn/", color: "#E4405F" },
-    { name: "TikTok", icon: FaTiktok, url: "https://www.tiktok.com/@furniturehave01?is_from_webapp=1&sender_device=pc", color: "#000000" },
-    { name: "Email", icon: FaEnvelope, url: "mailto:info@furniturehaven.co.za", color: "#D44638" },
+    { name: "TikTok", icon: FaTiktok, url: "https://www.tiktok.com/@furniturehave01", color: "#000000" },
+    { name: "Email", icon: FaEnvelope, url: "mailto:info@jozicraft.co.za", color: "#D44638" },
     { name: "Phone", icon: FaPhone, url: "tel:+27682852438", color: "#34B7F1" },
   ];
 
@@ -20,7 +20,6 @@ export default function ContactPage() {
         </p>
 
         <div className="grid md:grid-cols-2 gap-12">
-          {/* Left: Contact Info & Social */}
           <div className="space-y-6">
             <div className="bg-white p-6 rounded-2xl shadow-md border border-[#d4b896]/20">
               <h2 className="font-serif text-2xl font-bold text-[#8b6914] mb-4">Contact Information</h2>
@@ -51,7 +50,7 @@ export default function ContactPage() {
                   <FaEnvelope className="text-[#8b6914] text-xl mt-1 shrink-0" />
                   <div>
                     <p className="font-semibold text-[#4a3520]">Email</p>
-                    <p className="text-[#6b4c3b] text-sm"><a href="mailto:info@furniturehaven.co.za" className="hover:text-[#8b6914] transition">info@furniturehaven.co.za</a></p>
+                    <p className="text-[#6b4c3b] text-sm"><a href="mailto:info@jozicraft.co.za" className="hover:text-[#8b6914] transition">info@jozicraft.co.za</a></p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -94,7 +93,6 @@ export default function ContactPage() {
             </div>
           </div>
 
-          {/* Right: Contact Form */}
           <div>
             <div className="bg-white p-6 rounded-2xl shadow-md border border-[#d4b896]/20">
               <h2 className="font-serif text-2xl font-bold text-[#8b6914] mb-4">Send Us a Message</h2>
@@ -128,7 +126,6 @@ export default function ContactPage() {
           </div>
         </div>
 
-        {/* Map */}
         <div className="mt-12 rounded-2xl overflow-hidden shadow-md border border-[#d4b896]/20">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.5913079615193!2d28.044739999999997!3d-26.209969899999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950e979cda5d93%3A0xf48674dd6b28b6cf!2s4%20Salisbury%20St%2C%20Salisbury%20Claims%2C%20Johannesburg%2C%202001!5e0!3m2!1sen!2sza!4v1756831820669"

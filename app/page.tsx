@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/set-state-in-effect */
 "use client";
 import { useState, useEffect } from "react";
 import Link from "next/link";
@@ -10,7 +11,6 @@ export default function HomePage() {
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect
     setIsClient(true);
   }, []);
 
@@ -40,7 +40,6 @@ export default function HomePage() {
     },
   ];
 
-  // Show nothing on server to avoid hydration mismatch
   if (!isClient) {
     return (
       <div className="pt-16 md:pt-20 min-h-screen flex items-center justify-center">
@@ -54,7 +53,6 @@ export default function HomePage() {
 
   return (
     <div className="pt-16 md:pt-20 overflow-x-hidden">
-      {/* HERO SECTION */}
       <section className="relative min-h-screen flex items-center overflow-hidden px-4 md:px-6">
         <div className="absolute inset-0 bg-gradient-to-br from-[#4a3520] via-[#8b6914] to-[#c87a3a]" />
         <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-[#d4b896]/10 rounded-full blur-3xl animate-pulse" />
@@ -65,7 +63,6 @@ export default function HomePage() {
         <div className="absolute top-1/3 right-1/4 w-3 h-3 bg-white/20 rounded-full blur-sm animate-bounce-slow delay-500" />
 
         <div className="relative z-10 max-w-7xl mx-auto w-full grid lg:grid-cols-2 gap-12 items-center py-16">
-          {/* Left: Content */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             animate={{ opacity: 1, x: 0 }}
@@ -97,7 +94,7 @@ export default function HomePage() {
               transition={{ delay: 0.5, duration: 0.7, ease: "easeOut" }}
               className="text-white/80 text-lg max-w-lg mb-8"
             >
-              At Furniture Haven, we create custom furniture that transforms houses
+              At Jozi Craft, we create custom furniture that transforms houses
               into homes. Quality craftsmanship, timeless design, and a promise
               you can trust.
             </motion.p>
@@ -134,7 +131,6 @@ export default function HomePage() {
             </motion.div>
           </motion.div>
 
-          {/* Right: Category Showcase */}
           <motion.div
             initial={{ opacity: 0, scale: 0.92 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -164,7 +160,7 @@ export default function HomePage() {
           className="text-center mb-8"
         >
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-[#4a3520]">
-            Why Choose <span className="text-[#8b6914]">Furniture Haven</span>
+            Why Choose <span className="text-[#8b6914]">Jozi Craft</span>
           </h2>
           <p className="text-[#6b4c3b] mt-2">Quality you can see, feel, and trust</p>
         </motion.div>

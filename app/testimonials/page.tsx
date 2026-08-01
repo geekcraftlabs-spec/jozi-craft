@@ -99,7 +99,7 @@ export default function TestimonialsPage() {
             <div className="text-center mt-8">
               <a
                 href={`https://wa.me/27601089337?text=${encodeURIComponent(
-                  "Hi Furniture Haven! 👋\n\nI saw your delivery reviews and I'm interested in ordering furniture.\n\nCan you tell me more about your products and delivery to my area?\n\nThank you! 🙏"
+                  "Hi Jozi Craft! 👋\n\nI saw your delivery reviews and I'm interested in ordering furniture.\n\nCan you tell me more about your products and delivery to my area?\n\nThank you! 🙏"
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -213,7 +213,7 @@ export default function TestimonialsPage() {
                 return (
                   <a
                     href={`https://wa.me/27601089337?text=${encodeURIComponent(
-                      `View delivery: ${reviewUrl}\n\nHi Furniture Haven! 👋\n\nI saw your delivery review for the **${selectedReview.title}** (${selectedReview.location} - ${selectedReview.date}).\n\nI'm interested in ordering something similar. Can you tell me more?\n\nProduct: ${selectedReview.category}\nLocation: ${selectedReview.location}\n\nThank you! 🙏`
+                      `View delivery: ${reviewUrl}\n\nHi Jozi Craft! 👋\n\nI saw your delivery review for the **${selectedReview.title}** (${selectedReview.location} - ${selectedReview.date}).\n\nI'm interested in ordering something similar. Can you tell me more?\n\nProduct: ${selectedReview.category}\nLocation: ${selectedReview.location}\n\nThank you! 🙏`
                     )}`}
                     target="_blank"
                     rel="noopener noreferrer"

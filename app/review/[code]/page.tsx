@@ -26,10 +26,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const imageUrl = `${baseUrl}/images/${foundReview.image}`;
 
   return {
-    title: `${foundReview.title} – Furniture Haven Delivery Review`,
+    title: `${foundReview.title} – Jozi Craft Delivery Review`,
     description: foundReview.caption,
     openGraph: {
-      title: `${foundReview.title} – Furniture Haven`,
+      title: `${foundReview.title} – Jozi Craft`,
       description: foundReview.caption,
       images: [
         {
@@ -40,7 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         },
       ],
       type: "website",
-      siteName: "Furniture Haven",
+      siteName: "Jozi Craft",
     },
     twitter: {
       card: "summary_large_image",

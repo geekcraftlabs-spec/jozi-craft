@@ -228,7 +228,7 @@ export default function PortfolioPage() {
               return (
                 <a
                   href={`https://wa.me/27601089337?text=${encodeURIComponent(
-                    `View product: ${productUrl}\n\nHi Furniture Haven! 👋\n\nI'm interested in the **${selectedCategoryName}** you have.\n\nProduct code: ${selectedItem.productCode}\n\nCould you please give me:\n• A price estimate\n• Delivery options to my area\n\nThank you! 🙏`
+                    `View product: ${productUrl}\n\nHi Jozi Craft! 👋\n\nI'm interested in the **${selectedCategoryName}** you have.\n\nProduct code: ${selectedItem.productCode}\n\nCould you please give me:\n• A price estimate\n• Delivery options to my area\n\nThank you! 🙏`
                   )}`}
                   target="_blank"
                   rel="noopener noreferrer"

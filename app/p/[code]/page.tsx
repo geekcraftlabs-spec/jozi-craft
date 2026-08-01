@@ -38,24 +38,24 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: `${foundCategory?.name} – Premium Custom Furniture`,
-    description: `Handcrafted ${foundCategory?.name?.toLowerCase()} by Furniture Haven. Premium quality, custom made, and delivered nationwide in South Africa.`,
+    description: `Handcrafted ${foundCategory?.name?.toLowerCase()} by Jozi Craft. Premium quality, custom made, and delivered nationwide in South Africa.`,
     openGraph: {
-      title: `${foundCategory?.name} – Furniture Haven`,
+      title: `${foundCategory?.name} – Jozi Craft`,
       description: `Premium custom ${foundCategory?.name?.toLowerCase()} handcrafted in Johannesburg. Made to order with quality materials.`,
       images: [
         {
           url: imageUrl,
           width: 1200,
           height: 630,
-          alt: foundCategory?.name || "Furniture Haven product",
+          alt: foundCategory?.name || "Jozi Craft product",
         },
       ],
       type: "website",
-      siteName: "Furniture Haven",
+      siteName: "Jozi Craft",
     },
     twitter: {
       card: "summary_large_image",
-      title: `${foundCategory?.name} – Furniture Haven`,
+      title: `${foundCategory?.name} – Jozi Craft`,
       description: `Premium custom ${foundCategory?.name?.toLowerCase()} handcrafted in Johannesburg.`,
       images: [imageUrl],
     },

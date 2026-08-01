@@ -51,7 +51,6 @@ export const metadata: Metadata = {
       "Premium custom furniture handcrafted in Johannesburg. Nationwide delivery, bespoke designs, and a promise you can trust.",
     images: ["https://jozicraft.co.za/images/og-image.png"],
   },
-  // Trustpilot verification – you can update with the new ID later if needed
   other: {
     "trustpilot-one-time-domain-verification-id":
       "ca225c2f-b270-4c4a-a641-dcc0ba7790ec",
